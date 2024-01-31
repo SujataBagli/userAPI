@@ -16,6 +16,11 @@ $ git clone https://github.com/SujataBagli/userAPI.git
 # use Postman
 In Postman copy the link mention below. 
 
+# Endpoint
+http://localhost/userAPI/insertUser.php
+http://localhost/userAPI/getUser.php?id=4
+http://localhost/userAPI/updateUser.php?id=1
+
 # To Create User
 Endpoint: /users (HTTP Method: POST).
 http://localhost/userAPI/insertUser.php
