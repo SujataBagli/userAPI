@@ -10,7 +10,7 @@ Postman : https://www.postman.com/downloads/
 ● Apache
 ● mySQL
 
-# clone this repository under htdocs folder in XAMPP
+# clone this repository under htdocs folder of XAMPP
 $ git clone https://github.com/SujataBagli/userAPI.git
 
 # use Postman
