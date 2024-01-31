@@ -3,8 +3,8 @@ The API support the following operations: Create, Read, Update, and
 Delete (CRUD) for users.
 
 # Install
-● XAMPP https://www.apachefriends.org/download.html
-● Postman https://www.postman.com/downloads/ 
+XAMPP https://www.apachefriends.org/download.html
+Postman https://www.postman.com/downloads/ 
 
 clone using git command  under htdocs 
 command : git clone https://github.com/SujataBagli/userAPI.git
