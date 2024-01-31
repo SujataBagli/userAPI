@@ -16,13 +16,13 @@ $ git clone https://github.com/SujataBagli/userAPI.git
 # use Postman
 In Postman copy the link mention below. 
 
-To Create User:
-● Endpoint: /users (HTTP Method: POST).
-=> http://localhost/userAPI/insertUser.php
-● Request: JSON body containing user data (name, email).
-=> {"firstName":"jamc","lastName":"dais","email":"jackd@gmail.com.com","phone":"1221267895"}
-● Response: JSON response with the newly created user.
-=> {
+# To Create User
+Endpoint: /users (HTTP Method: POST).
+http://localhost/userAPI/insertUser.php
+Request: JSON body containing user data (name, email).
+{"firstName":"jamc","lastName":"dais","email":"jackd@gmail.com.com","phone":"1221267895"}
+Response: JSON response with the newly created user.
+{
     "err": 0,
     "message": "user added successfully!",
     "userData": {
@@ -34,7 +34,7 @@ To Create User:
     }
 }
 
-Get User by ID:
+# Get User by ID
 ● Endpoint: /users/{id} (HTTP Method: GET).
 => http://localhost/userAPI/getUser.php?id=4
 ● Response: JSON response containing user information.
@@ -50,7 +50,7 @@ Get User by ID:
     }
 }
 
-Update User:
+# Update User
 ● Endpoint: /users/{id} (HTTP Method: PUT).
 => http://localhost/userAPI/updateUser.php?id=1
 ● Request: JSON body containing user data to be updated (name, email).
