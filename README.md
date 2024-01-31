@@ -3,15 +3,17 @@ The API support the following operations: Create, Read, Update, and
 Delete (CRUD) for users.
 
 # Install
-XAMPP https://www.apachefriends.org/download.html
-# Install
-Postman https://www.postman.com/downloads/ 
+XAMPP : https://www.apachefriends.org/download.html
+Postman : https://www.postman.com/downloads/ 
 
-clone using git command  under htdocs 
-command : git clone https://github.com/SujataBagli/userAPI.git
+# Start XAMPP
+● Apache
+● mySQL
 
-path : C:\xampp\htdocs
+# clone this repository under htdocs folder in XAMPP
+$ git clone https://github.com/SujataBagli/userAPI.git
 
+# use Postman
 In Postman copy the link mention below. 
 
 To Create User:
