@@ -10,6 +10,12 @@ Postman : https://www.postman.com/downloads/
 ● Apache
 ● mySQL
 
+# import
+
+create database : api
+
+import tbl_users.sql in api database.
+
 # clone this repository under htdocs folder of XAMPP
 $ git clone https://github.com/SujataBagli/userAPI.git
 
